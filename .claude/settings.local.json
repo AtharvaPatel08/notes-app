@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm create *)",
+      "Bash(npx create-vite@latest . --template react-ts)",
+      "Bash(mv notora-app/* .)",
+      "Bash(mv notora-app/.* .)",
+      "Bash(npm install *)",
+      "Bash(npm run *)"
+    ]
+  }
+}
